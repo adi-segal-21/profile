@@ -1,0 +1,131 @@
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+body {
+  background-color: burlywood;
+  background-repeat: no-repeat;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  /* width: 100vw;
+  height: 100vh; */
+  margin: 0;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  align-items: cover;
+  /* margin: 22px 0; */
+}
+
+h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 80px;
+  color: yellow;
+  line-height: 20px;
+  text-align: center;
+  margin: 62px;
+}
+
+.header-title {
+  font-family: 'EB Garamond', serif;
+  color: yellow
+}
+
+.header-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  /* margin: 14px; */
+  align-items: left;
+}
+
+button {
+  font-family: 'Cairo', sans-serif;
+  align-items: left;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color:#FCF0CC ;
+  color: #FF521B ;
+  font-size: 20px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  margin: 29px;
+}
+
+ul {
+  text-align:left;
+}
+
+.list {
+  text-align:left;
+  margin: 24px;
+  font-size: 25px;
+  color: black;
+}
+
+.list-title {
+  margin: 55px;
+  color: yellow;
+}
+
+.header {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.S {
+  font-size: 35px;
+  color: black;
+  text-align: left;
+  margin: 15px;
+}
+
+button:hover {
+  background-color: #FF521B ; /* Green */
+  color: #FCF0CC;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+  font-family: 'Cairo', sans-serif;
+  font-size: 30px;
+}
+
+a:hover {
+  color: white;
+}
+
+.card {
+  background: beige;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  margin: 50px 20px 20px 20px;
+  /* width: calc(33.3333% - 40px); 1/3 minus the margins (20+20) */
+  padding: 20px;
+  text-align: center;
+  color: black;
+  float: left;
+  width: 300px;
+  height: auto;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  align-items: center;
+  padding: 2px 16px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    margin-left: 0.7em;
+	  margin-right: 0.7em;
+}
